@@ -1,0 +1,25 @@
+# Настройки Telegram бота
+bot-token: "123456789:AAFmG1234567890abcdefghijk-1234567890"
+channel: "@yourchannelname"
+
+# Команды для выдачи награды
+reward-commands:
+  - "give {player} diamond 5"
+  - "give {player} emerald 3"
+  - "msg {player} &aСпасибо за подписку!"
+  - "eco give {player} 1000"
+
+# Настройки
+timeout: 5000
+
+# Сообщения
+messages:
+  usage: "&eИспользование: &6/socialreward @username"
+  checking: "&7Проверяем подписку..."
+  subscribed: "&a✅ Вы подписаны! Награда выдана!"
+  not-subscribed: "&c❌ Вы не подписаны на канал {channel}"
+  already-received: "&c❌ Вы уже получали награду!"
+  error: "&c⚠️ Ошибка проверки. Попробуйте позже."
+  no-username: "&c❌ Укажите ваш Telegram username (например: @username)"
+  api-error: "&c⚠️ Ошибка связи с Telegram. Сообщите администратору."
+  bot-error: "&c⚠️ Бот не имеет прав для проверки подписки. Сообщите администратору."

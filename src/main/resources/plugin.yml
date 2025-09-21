@@ -1,0 +1,20 @@
+name: TelegramRewards
+version: '1.0-SNAPSHOT'
+main: Al3x.telegramRewards.TelegramRewards
+api-version: '1.16'
+authors: [Al3x]
+description: Выдача наград за подписку на Telegram
+
+commands:
+  socialreward:
+    description: Получить награду за подписку на Telegram
+    usage: /socialreward <@username>
+    permission: telegramrewards.use
+
+permissions:
+  telegramrewards.use:
+    description: Allows to use socialreward command
+    default: true
+  telegramrewards.admin:
+    description: Admin permissions
+    default: op
